@@ -1,0 +1,98 @@
+.container-fuiled{
+    width: 100%;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+.container .row{
+    width: 100%;
+    height: 90px;
+    background-color: aqua;
+}
+.title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 25%;
+    height: 100%;
+    background-color: blue;
+}
+
+.container-fuiled .row{
+    margin-top: 20px;
+    width: 100%;
+    height: 450px;
+    background-color: green;
+}
+
+.row-one{
+    margin-top: 20px;
+    width: 100%;
+    height: 300px;
+    background-color: lightcoral;
+}
+
+.row-one .outside-box{
+    position: relative;
+    width: 40%;
+    height: 250px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.row-one .outside-box .inside-box{
+    width: 90%;
+    height: 90%;
+    background-color: chartreuse;
+    position: absolute;
+    top: 40px;
+    right: 100px;
+}
+
+.row-two{
+    margin-top: 10px;
+    width: 100%;
+    height: 300px;
+    background-color: lightcoral;
+    direction: ltr;
+}
+
+.row-two .outside-box{
+    position: relative;
+    width: 40%;
+    height: 250px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.row-two .outside-box .inside-box{
+    width: 90%;
+    height: 90%;
+    background-color: chartreuse;
+    position: absolute;
+    top: 40px;
+    left: 100px;
+}
+
+.row-Three{
+    margin-top: 10px;
+    width: 100%;
+    height: 300px;
+    background-color: lightcoral;
+}
+
+.row-Three .outside-box{
+    position: relative;
+    width: 40%;
+    height: 250px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.row-Three .outside-box .inside-box{
+    width: 90%;
+    height: 90%;
+    background-color: chartreuse;
+    position: absolute;
+    top: 40px;
+    right: 100px;
+}
