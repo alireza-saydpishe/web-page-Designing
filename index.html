@@ -5,12 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>title</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     <!-- title -->
     <div class="container">
         <div class="row">
             <div class="title"></div>
+            <div class="dark-mood">
+                <!-- dark-mood -->
+                <button class="db" onclick="darkMood()">
+                    <span id="moon" class="material-symbols-outlined">
+                        dark_mode
+                    </span>
+                </button>
+                <!-- light mood -->
+                <button class="lb" onclick="lightMood()">
+                    <span class="material-symbols-outlined">
+                        light_mode
+                    </span>
+                </button>
+            </div>
         </div>
     </div>
 
@@ -62,5 +77,7 @@
         <div class="row"></div>
     </div>
 
+    <!-- script -->
+     <script src="app.js"></script>
 </body>
 </html>

@@ -20,6 +20,64 @@
     background-color: blue;
 }
 
+.dark-mood{
+    position: relative;
+    width: 130px;
+    height: 80px;
+    background-color: rgb(18, 17, 14);
+    bottom: 105px;
+    right: 1050px;
+    border-radius: 50px;
+}
+
+.db{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(29, 27, 27);
+    border-color:rgb(29, 27, 27) ;
+    top: 15px;
+    right: 15px;
+}
+
+.db:hover{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(29, 27, 27);
+    border-color:rgb(29, 27, 27) ;
+    top: 15px;
+    right: 15px;
+    box-shadow: rgba(162, 158, 158, 0.35) 0px 5px 15px;
+}
+.lb{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    border-color:whitesmoke ;
+    top: 15px;
+    right: 15px;
+}
+.lb:hover{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    border-color:whitesmoke ;
+    top: 15px;
+    right: 15px;
+    box-shadow: rgba(162, 158, 158, 0.35) 0px 5px 15px;
+}
+#moon{
+    color: whitesmoke;
+}
+
+
 .container-fuiled .row{
     margin-top: 20px;
     width: 100%;
